@@ -1,29 +1,25 @@
-$white : rgb(255, 255, 255);
-$blue: #206694;
-
-
 .convo{
-    background-color: $white;
+    background-color: orange;
     height:23rem;
     padding-top: 1rem;
     display: flex;
     flex-direction: column;
-
-
-    &__prompt{ 
+    &__text{
+        padding-left: 0.5rem;
+        margin: 0.8rem;
+        height: 2rem;
+        width: 15rem;
+        background-color: yellow;
         display: flex;
-        justify-content: baseline;
-    
-            &--text{
-                padding-left: 0.5rem;
-                margin: 0.8rem;
-                height: 2rem;
-                width: 15rem;
-                background-color: $blue;
-                display: flex;
-               align-items: center;
-               border-radius:50px;
-        }
+        align-items: center;
+        border-radius: 3px;
+        font-size: small;
     }
+}
+
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
 }
 
