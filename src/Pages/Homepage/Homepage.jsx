@@ -8,8 +8,8 @@ function Homepage(){
     return <>
         <Header/>
         <Convo/>
-        {/* <AIprompt/> */}
-        {/* <Textfield/> */}
+        <AIprompt/>
+        <Textfield/>
     </>
 
 }
