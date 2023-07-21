@@ -1,14 +1,16 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./Components/Header";
+import Homepage from "./Pages/Homepage/Homepage";
+import Secondpage from "./Pages/Secondpage/Secondpage";
 
 function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <Routes></Routes>
-      <h1>HACKATHON FRONTEND</h1>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/info" element={<Secondpage />} />
+      </Routes>
     </BrowserRouter>
   );
 }
