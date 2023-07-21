@@ -5,7 +5,8 @@ function Textfield(){
         <div className="textfield">
             <input className="textfield__content" type="text" 
             name="textfield" id="textfield"
-            placeholder="Enter Message.." />
+            placeholder="Text Message" />
+            <button className="textfield_submit">Send</button>
         </div>
     )
 }
