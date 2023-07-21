@@ -1,4 +1,4 @@
-import "./secondpage.scss"
+import "./Secondpage.scss"
 
 const Secondpage = () => {
   return (
