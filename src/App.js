@@ -12,7 +12,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
 
         <Route path="/info" element={<Secondpage />} />
-        {/* <Route path="/info" element={<ButtonDetails />} /> */}
+        <Route path="/info/details" element={<ButtonDetails />} />
       </Routes>
     </BrowserRouter>
   );

@@ -12,12 +12,13 @@
     }
 
     &__greeting{
+        padding: 1rem;
         border-radius: 1rem;
         height: 10rem;
+        width: 100%;
+        border: 1px solid black;
     }
-    &__greeting::placeholder{
-        padding: 4rem 1rem;
-    }
+  
 
     &__midText{
         padding: 1rem 0;

@@ -1,35 +1,44 @@
+import "./buttonDetails.scss";
+
 const ButtonDetails = () => {
   return (
-    <section className="main">
-      <header className="main__header">
-        <img alt="back icon" className="main__header-backIcon" />
-        <h2 className="main__header-text">Explore the AI Wonders</h2>
+    <section className="infoDetails">
+      <header className="infoDetails__header">
+        <img alt="back icon" className="infoDetails__header-backIcon" />
+        <h2 className="infoDetails__header-text">Explore the AI Wonders</h2>
       </header>
 
-      <button className="main__buttons-button">
+      <div className="infoDetails__question">
         Lorem Ipsum is simply dummy text ofng?
-      </button>
+      </div>
 
-      <textarea className="main__greeting" placeholder="Placeholder"></textarea>
+      <div className="infoDetails__greeting typewriter">
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout. The point of
+        using Lorem Ipsum is that it has a more-or-less normal distribution of
+        letters, as opposed to using 'Content here, content here', making it
+        look like readable English. Many desktop publishing packages and web
+        page editors now use Lorem Ipsum as their default model text
+      </div>
 
-      <h3 className="main__midText">
+      <h3 className="infoDetails__midText">
         Lorem ipsum dolor sit lorefkn;awuifha;wuioh.
       </h3>
 
-      <div className="main__buttons">
-        <button className="main__buttons-button">
+      <div className="infoDetails__buttons">
+        <button className="infoDetails__buttons-button">
           Lorem ipsum dolor sit amet.
         </button>
-        <button className="main__buttons-button">
+        <button className="infoDetails__buttons-button">
           Lorem ipsum dolor sit amet.
         </button>
-        <button className="main__buttons-button">
+        <button className="infoDetails__buttons-button">
           Lorem ipsum dolor sit amet.
         </button>
       </div>
       <div>
         <input
-          className="main__search"
+          className="infoDetails__search"
           placeholder="Your question here"
         ></input>
       </div>

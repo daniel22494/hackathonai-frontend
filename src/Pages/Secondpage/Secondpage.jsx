@@ -8,7 +8,9 @@ const Secondpage = () => {
         <h2 className='main__header-text'>Explore the AI Wonders</h2>
         </header>
 
-        <textarea className='main__greeting' placeholder='Placeholder'></textarea>
+        <div className='main__greeting' >
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sit quasi autem suscipit. Quasi sit fuga ea, minima odit rerum dignissimos esse. Accusamus illum non ullam dolores tempora, debitis, velit in, reiciendis eligendi delectus possimus tenetur aliquam ipsam asperiores architecto!
+        </div>
 
         <h3 className='main__midText'>Lorem ipsum dolor sit lorefkn;awuifha;wuioh.</h3>
 
