@@ -1,10 +1,17 @@
 import "./buttonDetails.scss";
+import { useNavigate } from "react-router-dom";
 
 const ButtonDetails = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="infoDetails">
       <header className="infoDetails__header">
-        <img alt="back icon" className="infoDetails__header-backIcon" />
+        <img
+          onClick={() => navigate("/info")}
+          alt="back icon"
+          className="infoDetails__header-backIcon"
+        />
         <h2 className="infoDetails__header-text">Explore the AI Wonders</h2>
       </header>
 

@@ -1,10 +1,12 @@
 import "./Secondpage.scss";
+import { useNavigate } from "react-router-dom";
 
 const Secondpage = () => {
+  const navigate = useNavigate();
   return (
-    <main className='main'>
+    <main  className='main'>
         <header className='main__header'>
-        <img alt='back icon' className='main__header-backIcon'/>
+        <img onClick={() => navigate("/")} alt='back icon' className='main__header-backIcon'/>
         <h2 className='main__header-text'>Explore the AI Wonders</h2>
         </header>
 
@@ -16,9 +18,9 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sit quasi autem susc
 
         <div className='main__buttons'>
 
-            <button className='main__buttons-button'>Lorem ipsum dolor sit amet.</button>
-            <button className='main__buttons-button'>Lorem ipsum dolor sit amet.</button>
-            <button className='main__buttons-button'>Lorem ipsum dolor sit amet.</button>
+            <button onClick={() => navigate("/info/details")} className='main__buttons-button'>Lorem ipsum dolor sit amet.</button>
+            <button onClick={() => navigate("/info/details")} className='main__buttons-button'>Lorem ipsum dolor sit amet.</button>
+            <button onClick={() => navigate("/info/details")} className='main__buttons-button'>Lorem ipsum dolor sit amet.</button>
         </div>
     <div>
         <input className="main__search" placeholder='Your question here'></input>
