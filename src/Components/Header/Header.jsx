@@ -13,8 +13,8 @@ function Header(){
             </div>
             <div className="header__actions">
                <img src={Video} alt="video call button" className="header__icon" />
-               <img src={Phone} alt="back button" className="header__icon" />
-               <img src={Dots} alt="back button" className="header__icon" />
+               <img src={Phone} alt="phone call button" className="header__icon" />
+               <img src={Dots} alt="more details button" className="header__icon" />
             </div>
         </header>
     )
