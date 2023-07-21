@@ -1,4 +1,4 @@
-import "./Homepage.scss"
+
 import Header from "../../Components/Header/Header";
 import Convo from "../../Components/Convo/Convo";
 import AIprompt from "../../Components/AIprompt/AIprompt";
