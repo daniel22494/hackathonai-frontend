@@ -1,4 +1,4 @@
-import "./Secondpage.scss"
+import "./secondpage.scss";
 
 const Secondpage = () => {
   return (
@@ -8,18 +8,20 @@ const Secondpage = () => {
         <h2 className='main__header-text'>Explore the AI Wonders</h2>
         </header>
 
-        <textarea className='main__greeting' placeholder='Placeholder'></textarea>
+        <div className='main__greeting' >
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Id sit quasi autem suscipit. Quasi sit fuga ea, minima odit rerum dignissimos esse. Accusamus illum non ullam dolores tempora, debitis, velit in, reiciendis eligendi delectus possimus tenetur aliquam ipsam asperiores architecto!
+        </div>
 
-        <h3 className='main__'>Lorem ipsum dolor sit.</h3>
+        <h3 className='main__midText'>Lorem ipsum dolor sit lorefkn;awuifha;wuioh.</h3>
 
-        <div>
+        <div className='main__buttons'>
 
-            <button>Lorem ipsum dolor sit amet.</button>
-            <button>Lorem ipsum dolor sit amet.</button>
-            <button>Lorem ipsum dolor sit amet.</button>
+            <button className='main__buttons-button'>Lorem ipsum dolor sit amet.</button>
+            <button className='main__buttons-button'>Lorem ipsum dolor sit amet.</button>
+            <button className='main__buttons-button'>Lorem ipsum dolor sit amet.</button>
         </div>
     <div>
-        <input placeholder='Your question here'></input>
+        <input className="main__search" placeholder='Your question here'></input>
     </div>
     </main>
   )
