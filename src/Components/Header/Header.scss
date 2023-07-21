@@ -1,5 +1,5 @@
 .header{
-    background-color: green;
+    background-color: #F2F0F4;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -7,16 +7,16 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        color: white;
+
         width: 9rem;
         height: 3.5rem;
         justify-content: space-between;
         align-items: center;
     }
-    &__pholder{
+    &__backIcon{
         width: 0.7rem;
         height: 0.7rem;
-        background-color: black;
+        // background-color: black;
     }
     &__actions{
         display: flex;
@@ -26,4 +26,13 @@
         align-items: center;
     }
 
+}
+
+.username__text{
+    color: black;         
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
 }
