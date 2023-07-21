@@ -1,0 +1,23 @@
+.convo{
+    background-color: orange;
+    height:23rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    &__text{
+        padding-left: 0.5rem;
+        margin: 0.8rem;
+        height: 2rem;
+        width: 15rem;
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+        border-radius: 3px;
+    }
+}
+
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
