@@ -4,17 +4,14 @@
     flex-wrap: wrap;
     justify-content: space-around;
     &__username{
-    color: white;
-    // margin-left: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    // background-color: aqua;
-    height: 3.5rem;
-    // border: 2px red solid;
-    justify-content: space-between;
-    align-items: center;
-    width: 9rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color: white;
+        width: 9rem;
+        height: 3.5rem;
+        justify-content: space-between;
+        align-items: center;
     }
     &__pholder{
         width: 0.7rem;
@@ -25,9 +22,8 @@
         display: flex;
         flex-wrap: wrap;
         width: 4.5rem;
-        // background-color: orange;
-        align-items: center;
         justify-content: space-between;
+        align-items: center;
     }
 
 }
