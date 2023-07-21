@@ -7,9 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Routes>
-        <Route />
-      </Routes>
+      <Routes></Routes>
       <h1>HACKATHON FRONTEND</h1>
     </BrowserRouter>
   );
