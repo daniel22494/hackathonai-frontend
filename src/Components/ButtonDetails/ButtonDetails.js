@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 
 const ButtonDetails = () => {
   const navigate = useNavigate();
-
   return (
     <section className="infoDetails">
       <header className="infoDetails__header">
@@ -19,7 +18,7 @@ const ButtonDetails = () => {
         Lorem Ipsum is simply dummy text ofng?
       </div>
 
-      <div className="infoDetails__greeting typewriter">
+      <div className="infoDetails__greeting">
         It is a long established fact that a reader will be distracted by the
         readable content of a page when looking at its layout. The point of
         using Lorem Ipsum is that it has a more-or-less normal distribution of
@@ -33,9 +32,6 @@ const ButtonDetails = () => {
       </h3>
 
       <div className="infoDetails__buttons">
-        <button className="infoDetails__buttons-button">
-          Lorem ipsum dolor sit amet.
-        </button>
         <button className="infoDetails__buttons-button">
           Lorem ipsum dolor sit amet.
         </button>
