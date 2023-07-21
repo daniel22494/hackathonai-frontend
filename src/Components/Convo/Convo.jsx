@@ -48,6 +48,7 @@
 // export default Convo;
 
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Convo.scss";
 
 function Convo() {
@@ -84,15 +85,22 @@ function Convo() {
 
   return (
     <section className="convo">
+      <div className="convo__prompt">
+        <img className="convo__prompt--img" src="" alt="Profile Picture"/> 
+        <p className="convo__prompt--text"> Heyy what have you been up to? </p> </div>
       {/* ... */}
-      <form onSubmit={handleFormSubmit}>
-        <input type="text" value={inputText} onChange={handleInputChange} />
-        <button type="submit">Submit</button>
-      </form>
+      {response && (
       <div>
-        <h3>Response from GPT-3:</h3>
-        <p>{response.content}</p>
+        <Link to="/info"> <p className="convo__form--link"> Want tot learn more about AI texts?</p> </Link>
+        <p className="convo__form--prompt"> How about saying</p>
+        <p className="convo__form--response">{response.content}</p>
       </div>
+         )}
+      <form className="convo__form" onSubmit={handleFormSubmit}>
+        <input  className="convo__form--input" type="text" value={inputText} onChange={handleInputChange} />
+        <button className="convo__form--button" type="submit"> <img src="" alt="submit button"/> </button>
+      </form>
+      
     </section>
   );
 }
