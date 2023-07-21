@@ -24,7 +24,13 @@
         }
     }
 
-
+&__response{
+    margin: 1rem;
+    color: white;
+    font-size: 14px;
+        line-height: 24px;
+        font-weight: 400;
+}
     &__greeting{
         margin: 1rem 0;
         padding: 1rem;
