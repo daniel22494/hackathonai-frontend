@@ -1,0 +1,19 @@
+.infoRedir{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2rem;
+    &__link{
+        display: flex;
+        background-color: white;
+        margin-left: 0.2rem;
+        width: 90%;
+        height: 1rem;
+        border-radius: 0.2rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: small;
+    }
+}
