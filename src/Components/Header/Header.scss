@@ -1,0 +1,33 @@
+.header{
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    &__username{
+    color: white;
+    // margin-left: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    // background-color: aqua;
+    height: 3.5rem;
+    // border: 2px red solid;
+    justify-content: space-between;
+    align-items: center;
+    width: 9rem;
+    }
+    &__pholder{
+        width: 0.7rem;
+        height: 0.7rem;
+        background-color: black;
+    }
+    &__actions{
+        display: flex;
+        flex-wrap: wrap;
+        width: 4.5rem;
+        // background-color: orange;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
