@@ -46,6 +46,7 @@ function Convo() {
     // </section>
 
     <section className="convo">
+      <div className="convo__today">Today</div>
     <div className="right">
         <div className="convo__text">
             <p className="convo__text-content">
